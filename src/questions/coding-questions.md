@@ -4,19 +4,19 @@ layout: layouts/page.njk
 permalink: /questions/coding-questions/index.html
 ---
 
-Question: What is the value of `foo`?
+### Question: What is the value of `foo`?
 ```javascript
 var foo = 10 + '20';
 ```
 Answer: `"1020"`
 
-Question: What will be the output of the code below?
+### Question: What will be the output of the code below?
 ```javascript
 console.log(0.1 + 0.2 == 0.3);
 ```
 Answer: `false`
 
-Question: How would you make this work?
+### Question: How would you make this work?
 ```javascript
 add(2, 5); // 7
 add(2)(5); // 7
@@ -42,19 +42,19 @@ add(2, 5); // 7
 add(2)(5); // 7
 ```
 
-Question: What value is returned from the following statement?
+### Question: What value is returned from the following statement?
 ```javascript
 "i'm a lasagna hog".split("").reverse().join("");
 ```
 Answer:
 `"goh angasal a m'i"`
 
-Question: What is the value of `window.foo`?
+### Question: What is the value of `window.foo`?
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
 ```
 
-Question: What is the outcome of the two alerts below?
+### Question: What is the outcome of the two alerts below?
 ```javascript
 var foo = "Hello";
 (function() {
@@ -69,7 +69,7 @@ Answer:
 2nd alert would be output: error bar not defined, because bar is inside IIFE scope
 ```
 
-Question: What is the value of `foo.length`?
+### Question: What is the value of `foo.length`?
 ```javascript
 var foo = [];
 foo.push(1);
@@ -80,7 +80,7 @@ Answer:
 2
 ```
 
-Question: What is the value of `foo.x`?
+### Question: What is the value of `foo.x`?
 ```javascript
 var foo = {n: 1};
 var bar = foo;
@@ -92,7 +92,7 @@ foo.x // undefined
 ```
 
 
-Question: What does the following code print?
+### Question: What does the following code print?
 ```javascript
 console.log('one');
 setTimeout(function() {
@@ -112,7 +112,7 @@ undefined
 two
 ```
 
-Question: What is the difference between these four promises?
+### Question: What is the difference between these four promises?
 ```javascript
 doSomething().then(function () {
   return doSomethingElse();
@@ -132,4 +132,3 @@ Answer:
 2nd Promise call a function inside that `thenable`
 3rd Promise
 ```
-
