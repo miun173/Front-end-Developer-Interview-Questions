@@ -5,6 +5,8 @@ permalink: /questions/css-questions/index.html
 ---
 
 * What is CSS selector specificity and how does it work?
+  - specificiy is how browser decide which css property values are most relevant, it's based on css selector.
+  - the browser decision based on the css selector weight, the most wieght will be applied as property.
 * What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 * Describe Floats and how they work.
 * Describe z-index and how stacking context is formed.
